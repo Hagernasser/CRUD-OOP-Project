@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f1eeec;
+    font-family:'Times New Roman';
+    color: #e1dede;
+}
+
+.crud {
+    width: 79%;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin: 2% 0;
+    color: #000;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    background-color: #686464;
+    border-radius: 4px;
+    padding: 4px;
+    border: none;
+    margin: 4px 0;
+    outline: none;
+    color: #fff;
+
+}
+input::placeholder{
+    color: rgb(239, 233, 231);
+    font-size: 10px;
+}
+
+input:focus {
+    background-color: #544f4f;
+}
+
+.price input {
+    width: 20%;
+}
+
+#total {
+    background-color: rgb(213, 6, 6);
+    padding: 5px 3px;
+    border-radius: 4px;
+}
+
+#total::before {
+    content: 'total:';
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(252, 120, 48);
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(157, 52, 7);
+    letter-spacing: 1.5px;
+    transition: 0.5s;
+}
+
+.searchpro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchpro button {
+    width: 40%;
+}
+
+table {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    border:1px solid rgb(142, 141, 140) ;
+}
+
+table th {
+    text-transform: uppercase;
+    color: #f39053;
+       
+}
+
+th,
+td {
+    padding: 5px;
+    border:1px solid rgb(93, 89, 88) ;
+    color: #46413e;
+}
+
+#deleteall {
+    margin: 20px 0;
+}
+
